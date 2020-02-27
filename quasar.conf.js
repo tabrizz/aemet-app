@@ -77,15 +77,11 @@ module.exports = function(ctx) {
       env: ctx.dev
         ? {
             API_URL: JSON.stringify("https://opendata.aemet.es/opendata/api"),
-            API_KEY: JSON.stringify(
-              "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJramV0bGFnQGdtYWlsLmNvbSIsImp0aSI6IjFmMjk5NjQ3LTc0ODctNDEzMi1iZjNkLTAxYjg0MzNiOWRmYSIsImlzcyI6IkFFTUVUIiwiaWF0IjoxNTgyNzYwMDQwLCJ1c2VySWQiOiIxZjI5OTY0Ny03NDg3LTQxMzItYmYzZC0wMWI4NDMzYjlkZmEiLCJyb2xlIjoiIn0.kB4gBfwTpw6wu-ByaAGUnjIV3_Ci0fsKsU0g3c2OYU8"
-            )
+            API_KEY: JSON.stringify("Aqui va la api key")
           }
         : {
             API_URL: JSON.stringify("https://opendata.aemet.es/opendata/api"),
-            API_KEY: JSON.stringify(
-              "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJramV0bGFnQGdtYWlsLmNvbSIsImp0aSI6IjFmMjk5NjQ3LTc0ODctNDEzMi1iZjNkLTAxYjg0MzNiOWRmYSIsImlzcyI6IkFFTUVUIiwiaWF0IjoxNTgyNzYwMDQwLCJ1c2VySWQiOiIxZjI5OTY0Ny03NDg3LTQxMzItYmYzZC0wMWI4NDMzYjlkZmEiLCJyb2xlIjoiIn0.kB4gBfwTpw6wu-ByaAGUnjIV3_Ci0fsKsU0g3c2OYU8"
-            )
+            API_KEY: JSON.stringify("Aqui va la api key")
           }
     },
 

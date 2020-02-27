@@ -3,24 +3,27 @@
 testing app
 
 ## Install the dependencies
+
 ```bash
 yarn
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Iniciar en modo desarrollo
+
 ```bash
 quasar dev
 ```
 
-### Lint the files
+### Realizar pruebas
+
 ```bash
-yarn run lint
+quasar test --unit jest
 ```
 
-### Build the app for production
-```bash
-quasar build
-```
+### api_key
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJramV0bGFnQGdtYWlsLmNvbSIsImp0aSI6IjFmMjk5NjQ3LTc0ODctNDEzMi1iZjNkLTAxYjg0MzNiOWRmYSIsImlzcyI6IkFFTUVUIiwiaWF0IjoxNTgyNzYwMDQwLCJ1c2VySWQiOiIxZjI5OTY0Ny03NDg3LTQxMzItYmYzZC0wMWI4NDMzYjlkZmEiLCJyb2xlIjoiIn0.kB4gBfwTpw6wu-ByaAGUnjIV3_Ci0fsKsU0g3c2OYU8
+
+### Agregar la api_key en el archivo quasar.conf.js
+
+Linea 81 y 87 atributo API_KEY
